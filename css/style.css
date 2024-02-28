@@ -104,11 +104,6 @@
     transition: 0.2s ease;
     }
 
-.container .center{
-    background-position: center;
-}
-
-
 
 .texto, .button{
     flex-direction: column;
