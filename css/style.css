@@ -1,1 +1,71 @@
 @import url(style.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    }
+
+.left{
+    position: absolute;
+    left: 0;
+    background: #fff;
+    width: 70%;
+    height: 100%;
+    }
+
+.menu{
+    width: 500px;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    left: 35%;
+    position: absolute;
+    top: 0;
+    }
+    
+.menu a{
+    margin: 25px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    transition: 0.3s ease;
+    color: #000;
+    }
+    
+.menu a:nth-child(1){
+    color: #e58f00;
+    font-weight: bold;
+    }
+    
+.menu a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    background: #000;
+    transition: 0.3s ease;
+    }
+    
+.menu a:hover{
+    color: #000;
+    transition: 0.2s ease;
+    }
+    
+.menu a:hover::after{
+    width: 100%;
+    transition: 0.2s ease;
+    }
