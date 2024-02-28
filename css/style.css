@@ -30,13 +30,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
-    left: 35%;
+    left: 2px;
     position: absolute;
     top: 0;
     }
     
 .menu a{
-    margin: 25px;
+    margin: 60px;
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
@@ -66,6 +66,55 @@
     }
     
 .menu a:hover::after{
+    width: 100%;
+    transition: 0.2s ease;
+    }
+
+
+.right{
+    position: relative;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    }
+
+.menu2{
+    width: 500px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    display: flex;
+    left: 95%;
+    position: absolute;
+    top: 0;
+    }
+    
+.menu2 a{
+    margin: 60px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    transition: 0.3s ease;
+    color: #000;
+    }
+    
+.menu2 a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    background: #000;
+    transition: 0.3s ease;
+    }
+    
+.menu2 a:hover{
+    color: #000;
+    transition: 0.2s ease;
+    }
+    
+.menu2 a:hover::after{
     width: 100%;
     transition: 0.2s ease;
     }
