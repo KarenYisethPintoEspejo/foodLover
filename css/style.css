@@ -100,3 +100,37 @@
     border-radius: 5xp;
     justify-content: center;
 }
+
+.pagina2{
+    background-color: #17171e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 30px;
+}
+
+.img2{
+    width: 500px;
+    height: 540px;
+}
+
+.contenido2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    gap:5px;
+}
+
+.h2{
+    font-size: 50px;
+    color: #ffff;
+}
+
+.p2{
+    color: #ffff;
+    font-size: 30px;
+}
