@@ -1,153 +1,102 @@
 @import url(style.css);
-
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     text-decoration: none;
-    
+}
+
+.pagina1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/storage/img/placeYourImageHere0.png);
+    background-size: cover;
 }
 
 .container{
-    width: 100%;
+    background-color: #323239d5;
     height: 100vh;
-    position: absolute;
-    display: flex;
-    background-color: grey;
-    }
+    background-position: center;
+}
 
-.menu{
-    width: 500px;
-    height: 100%;
-    justify-content: flex-start;
-    align-items: flex-start;
+.header_1{
     display: flex;
-    left: 2px;
-    position: absolute;
-    top: 0;
-    }
-    
-.menu a{
-    margin: 60px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.left{
     display: flex;
-    position: relative;
-    transition: 0.3s ease;
-    color: #000;
-    }
-    
-.menu a:nth-child(1){
-    color: #e58f00;
+    gap: 30px;
+    font-family: "Roboto Slab", serif;
     font-weight: bold;
-    }
-    
-.menu a::after{
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 3px;
-    bottom: 0;
-    background: #000;
-    transition: 0.3s ease;
-    }
-    
-.menu a:hover{
-    color: #000;
-    transition: 0.2s ease;
-    }
-    
-.menu a:hover::after{
-    width: 100%;
-    transition: 0.2s ease;
-    }
+}
 
-
-.menu2{
-    width: 100px;
-    height: 100%;
-    justify-content: flex-end;
-    align-items: flex-start;
+.right{
     display: flex;
-    left: 94%;
-    position: absolute;
-    top: 0;
-    }
-    
-.menu2 a{
-    margin: 60px;
-    justify-content: flex-start;
-    align-items: flex-start;
+    gap: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+}
+
+.home1{
+    color:#e58f00;
+    font-weight: bold;
+}
+
+.about1, .menus1, .offer1, .gallery1, .contact1 {
+    color:#ffff;
+}
+
+.blog1{
+    color: white;
+}
+
+.center{
     display: flex;
-    position: relative;
-    transition: 0.3s ease;
-    color: #000;
-    }
-    
-.menu2 a::after{
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 3px;
-    bottom: 0;
-    background: #000;
-    transition: 0.3s ease;
-    }
-    
-.menu2 a:hover{
-    color: #000;
-    transition: 0.2s ease;
-    }
-    
-.menu2 a:hover::after{
-    width: 100%;
-    transition: 0.2s ease;
-    }
+    gap: 30px;
+}
 
-
-.texto, .button{
+.contenido1{
+    display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 100px;
-    margin: 20px;
-    left:140%;
-    top: 380px;
-    position: relative;
-    justify-content: center;
-    align-content: center;
+    width: 35%;
+    align-self: center;
+    align-items: left;
+    gap: 15px;
+}
+
+.img1{
     display: flex;
-    }
+    width: 90vh;
+    align-self: center;
+    justify-content: center;
+    margin-left:30px;
+}
 
-h1{
+.h1{
     color: #e58f00;
-    margin: 0px 0px 20px 0px;
+    font-family: "Roboto Slab", serif;
+    font-size: 60px;
 }
 
-p{
-    color:#fff;
-}
-    
-
-.button button{
-width: 200px;
-height: 50px;
-margin: 20px;
-position: relative;
-border: 3px solid #e58f00;
-border-radius: 5px;
-color: #000;
-background: #e58f00;
-cursor: pointer;
-transition: 0.3s ease;
+.p1{
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 20px;
 }
 
-.content-button button{
-background: #fff;
-color: #fff;
-}
-
-button:hover{
-background: #fff;
-color: #000;
-transition: 0.2s ease;
+.b1{
+    display: flex;
+    color: #323239;
+    width: 40%;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #e58f00;
+    padding: 15px;
+    border: #e58f00;
+    border-radius: 5xp;
+    justify-content: center;
 }
